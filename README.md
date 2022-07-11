@@ -7,20 +7,20 @@ This is an overview of my project.
 
 ### Problem Statement
 
-I went to compare 2 different subreddits. 1 was the GenZ subredddit and the other was the millenial subreddit. 
+I want to compare 2 different subreddits. 1 was the GenZ subredddit and the other was the millenial subreddit. 
 
 ### Datasets
 
-We use 2 data sets. They come from scrapping the 2 subreddits. We did this by using the requests.get() function. We scrapped 1000 posts from each subreddits respectively.
+We used 2 data sets. They came from scrapping the 2 subreddits. We did this by using the requests.get() function. We scrapped 1000 posts from each subreddits respectively.
 
 ### Deliverables
 
-The first thing we looked at was a numeric heatmap. I wanted to see if any numerical entries in the subreddit could predict the subreddit. Here is what we found:
+The first thing we looked at was a numeric heatmap. We wanted to see if any numerical entries in the subreddit could predict which subreddit it belonged to. Here is what we found:
  ![Alt text](./pics/heatmap.jpg)
  
  We can see that the higher the number of comments are, the more likely the it is to be on the GenZ subreddit. 
  
- After that, we checked the classification data. We checked with both the title and the selftext. I'll will show 3 analytic techniques for both the title and selftext. The first is how common each word is:
+ After that, we checked the classification data. We checked with both the title and the selftext. We'll will show 3 analytic techniques for both the title and selftext. The first is how common each word is:
  Title:
   ![Alt text](./pics/title_word_count.jpg)
   
